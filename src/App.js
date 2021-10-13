@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.scss";
-import { HashRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./components/Home/Home";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
@@ -10,7 +10,7 @@ import MovieDetail from "./components/MovieDetail/MovieDetail";
 export default function App() {
   return (
     <div className="App">
-      <HashRouter >
+      <Router basename="/MovieApp">
         <Header />
         <div className="container">
           <Switch>
@@ -20,7 +20,7 @@ export default function App() {
           </Switch>
         </div>
         <Footer />
-      </HashRouter>
+      </Router>
     </div>
   );
 }
