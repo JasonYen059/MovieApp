@@ -1,5 +1,5 @@
 {
-  "homepage":"https://JasonYen059.github.io/MovieApp",
+  "homepage":"https://JasonYen059.github.io/MovieApp/",
   "name": "movie-app",
   "version": "0.1.0",
   "private": true,
@@ -19,7 +19,7 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "prdeploy":"npm run build",
+    "predeploy":"npm run build",
     "deploy":"gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
