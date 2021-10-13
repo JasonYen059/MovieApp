@@ -6,13 +6,15 @@
   padding: 0 40px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  position: relative;
 }
 
 .logo{
-  
-  font-size: 20px;
+  position: absolute;
+  font-size: 1.8vw;
   font-weight: 600;
+  left: 2%;
 
   .link{
     color:$font-primary;

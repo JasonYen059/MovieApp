@@ -25,10 +25,15 @@
 
 .card-info{
     color: $font-primary;
+    padding: 5%;
 
     h4{
         font-size: 22px;
-        font-weight: 400;
+        font-weight: 600;
         margin-bottom: 10px;
+    }
+
+    p{
+        color: #cecece;
     }
 }

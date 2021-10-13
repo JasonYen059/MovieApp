@@ -6,12 +6,13 @@
     padding: 40px 0;
     color: $font-primary;
     font-weight: 400;
+    height: calc( 100vh - 144px);
 }
 
 .movie-rating{
     padding-left: 3px;
     margin-top: 20px;
-    color: $font-secondary;
+    color: $font-primary;
     display: flex;
     span{
         margin-right: 20px;
@@ -19,23 +20,54 @@
 }
 
 .movie-title{
-    font-style: 40px;
+    font-size: 40px;
+    font-weight: 700;
     color: $font-primary;
 }
 
 .movie-plot{
     margin-top: 20px;
+    padding-right: 40px;
     line-height: 1.8rem;
+}
+
+.movie-info{
+    margin: 20px 0;
 }
 
 .movie-info > div span:first-child{
     padding: 10px 0;
     color: $font-primary;
-    font-weight: 600;
+    font-weight: 700;
     width: 100px;
     display: inline-block;
 }
 
 .movie-info > div span{
-    color:  $font-secondary;
+    color: steelblue;
+}
+
+
+.star{
+    color: yellow;
+    margin: 0 5px;
+}
+
+.thumb{
+    color: rgb(24, 151, 255);
+    margin: 0 5px;
+}
+
+.clock{
+    margin: 0 5px;
+}
+
+.year{
+    color: rgb(255, 184, 117);
+    margin: 0 5px;
+}
+
+.loadingdiv{
+    font-size: 1.5vw;
+    font-weight: 700;
 }
